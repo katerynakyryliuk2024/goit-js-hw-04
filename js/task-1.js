@@ -23,17 +23,3 @@
 // console.log(
 //   isEnoughCapacity({ apples: 18, potatoes: 5, oranges: 2 }, 7)
 // ); // false
-
-
-const changeEven = (numbers, value) => {
-  let newArray = [];
-  numbers.forEach((element) => {
-       if (element % 2 === 0) {
-      newArray.push(element + value);
-    };
-  });
-return newArray;
-};
-
-
-console.log(changeEven([1, 2, 3, 4, 5], 10));
